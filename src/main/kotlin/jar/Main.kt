@@ -12,8 +12,8 @@ fun main(args: Array<String>) {
         2 -> {
             for (i in args[0].toInt()..args[1].toInt()) {
                 println(i)
+                Thread.sleep(1000)
             }
-            Thread.sleep(10000)
         }
 
         else -> println("Error")
